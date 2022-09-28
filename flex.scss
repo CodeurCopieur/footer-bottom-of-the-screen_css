@@ -1,0 +1,47 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #222;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f1f1f1;
+  nav {
+    padding: .625rem;
+    text-align: center;
+  }
+  a {
+    color: #222;
+    text-decoration: none;
+  }
+}
+
+main {
+  background-color: royalblue;
+  padding: 7.8125rem 3.125rem 3.125rem;
+  // prend l'espace
+  flex-grow: 1;
+}
+
+h1 {
+  color: #f1f1f1;
+  text-align: center;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
